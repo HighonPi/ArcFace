@@ -11,7 +11,7 @@ import network_16 as net
 from PIL import Image
 
 # Model saved with Keras model.save()
-MODEL_PATH = 'models/arcface_weights.h5'
+MODEL_PATH = '../models/arcface_weights.h5'
 
 cosine_threshold = 0.075	                    #emperically set threshold
 
@@ -123,8 +123,7 @@ def face_verify(face1,face2):
     img_pixels2 = np.expand_dims(x2a, axis = 0)
 
     #|img_pixels2 /= 255           #normalize input 
-    # Be careful how your trained model deals with the input
-    # otherwise, it won't make correct prediction!
+    # Need to be careful how trained model deals with the input otherwise, it won't make correct prediction!
 
     x1 = img_pixels1
     x2 = img_pixels2
@@ -142,26 +141,9 @@ def face_verify(face1,face2):
 
     return preds,str(cosine_distance)
 
-# # images are stored in the images folder. Change path here to do face verification with different images
-# img_path1 = 'images/a.jpeg'
-# img_path2 = 'images/c.png'
-
-# pred = face_verify(img_path1,img_path2,model)
-# print("___________________________")
-# print(pred)
-# print("___________________________")
-
 demo = gr.Interface(fn=face_verify, 
              inputs=[gr.inputs.Image(label="Face1"),gr.inputs.Image(label="Face2")],
              outputs=[gr.outputs.Textbox(label="Prediction"),gr.outputs.Textbox(label="Cosine Distance")]
              )
-
-# def pp(inp1,inp2):
-#     return inp1+" hello "+inp2
-
-# demo2 = gr.Interface(fn=pp, 
-#              inputs=[gr.inputs.Textbox(lines=5, label="Input Text"),gr.inputs.Textbox(lines=5, label="Input Text2")],
-#              outputs=gr.outputs.Textbox(label="Generated Text"),
-            #  )
              
 demo.launch(share=True)
