@@ -83,11 +83,6 @@ B) In this file, a Resnet-34 model is used as a backbone. We trained it to reduc
 2. Run the <b>gradio_dep.py</b> file to start the server.
 ```console
 (arcface)@ai_ml_warrior: python3 gradio_dep.py
-```
-```
-3. Run the app.py file to start the server.
-```console
-(arcface)@ai_ml_warrior: python3 app.py
 ArcFace expects  []  inputs
 and it represents faces as  (512,)  dimensional vectors
 Running on local URL:  http://127.0.0.1:7860
@@ -106,7 +101,7 @@ Running on public URL: https://90d977e0e66***20.gradio.app
 ***
 ***
 ## Project by <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2000501<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2002601<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2000500<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20005010
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;200050084 Karthikeya<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;200050101 Poorna Teja<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;200050103 Balasubramanian<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;200050134 Shubh Kumar
