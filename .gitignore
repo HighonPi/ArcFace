@@ -4,3 +4,4 @@ giant_dataset/
 submission/Arcface/checkpoint/
 submission/Arcface/lfw.tgz
 submission/Arcface/test_data_1000/x_test_data.npy
+submission/Codes/models/
