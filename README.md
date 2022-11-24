@@ -1,4 +1,4 @@
-# Arcface 
+# ArcFace 
 ## ai_ml Project
 ***
 Hey! These are our codes and presentations for the ai_ml Deep Learning project.
@@ -96,8 +96,8 @@ Running on public URL: https://90d977e0e66***20.gradio.app
 ***
 - [Paper Review Log](https://zestyoreo9.gitbook.io/deep-learning-and-neural-networks/one-shot-learning-project/papers)<br>
 - [Connected Papers.com](https://www.connectedpapers.com/main/d4f100ca5edfe53b562f1d170b2c48939bab0e27/ArcFace%3A-Additive-Angular-Margin-Loss-for-Deep-Face-Recognition/graph)<br>
-- [Main Github Repo](https://github.com/zestyoreo/Arcface)<br>
-- [Presentation Link](https://iitbacin-my.sharepoint.com/:p:/g/personal/200050103_iitb_ac_in/EbD_mES0PHtAkZ0ljE6R_GEBHUDhEVAxVmAryNsBSrC21Q?e=mYMgmz)
+- [Main Github Repo](https://github.com/HighonPi/ArcFace)<br>
+- [Presentation Link](https://github.com/HighonPi/ArcFace/blob/master/submission/Arcface%20AI-ML%20Project.pptx)
 ***
 ***
 ## Project by <br>
