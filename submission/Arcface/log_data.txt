@@ -1,0 +1,3 @@
+No of epoch till now : 50, File number for record : 0
+No of epoch till now : 150, File number for record : 2
+No of epoch till now : 400, File number for record : 7
